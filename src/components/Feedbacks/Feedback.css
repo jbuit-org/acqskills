@@ -1,0 +1,72 @@
+.feedbackContainer{
+    width: 100%;
+    margin: auto;
+    margin-bottom: 5rem;
+    /*background: url(images/Group2626.png);*/
+    background: #000;
+    color: #fff;
+    text-align: center;
+    padding: 5rem 0;
+}
+
+.feedbackContainer h2{
+    color: #fff;
+    padding-bottom: 3rem;
+}
+
+.feedbackGallery{
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: .1fr 1fr 1fr 1fr .1fr;
+    gap: 2rem;
+}
+
+.feedArrow{
+    background: #fff;
+    color: #000;
+    margin-top: 130px;
+    padding: .5rem;
+    font-size: 2rem;
+}
+
+.feedDetails{
+    background: #fff;
+    color: #000000;
+    padding: .5rem;
+}
+
+.feedDetails p{
+    font-size: 12px;
+    padding: 1rem;
+}
+
+.feedDetails img{
+    width: 30%;
+    border-radius: 50%;
+}
+
+.feedDetails h4{
+    font-size: 18px;
+    padding: .3rem;
+}
+
+.feedDetails h5{
+    font-size: 14px;
+    padding: .3rem;
+}
+
+@media screen and (max-width: 960px) {
+    .feedbackGallery{
+        width: 80%;
+        margin: auto;
+        display: grid;
+        grid-template-columns: 100%;
+    }
+    .feedDetails{
+        
+    }
+    .feedDetailsArrow{
+        display: none;
+    }
+}

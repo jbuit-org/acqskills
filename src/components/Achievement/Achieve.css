@@ -1,0 +1,52 @@
+.achieveContainer{
+    width: 100%;
+    background-color: #DFF4F0;
+}
+
+.achieveDetails{
+    width: 65%;
+    margin: auto;
+    padding: 2rem;
+    text-align: center;
+    color: #000;
+}
+
+.achieveDetails h4{
+    font-size: 1.4rem;
+    padding: 0 0 1rem 0;
+}
+
+.achieveDetails p{
+    font-size: 1.5rem;
+    font-weight: 500;
+    padding: 0 0 2rem 0;
+}
+
+.achieveGallery{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 3rem;
+    padding: 2rem 0 0 0;
+}
+
+.achieveGallery img{
+    width: 50%;
+}
+
+@media screen and (max-width: 960px) {
+    .achieveDetails p{
+        font-size: 1.2rem;
+        font-weight: 500;
+        padding: 0 0 2rem 0;
+    }
+    .achieveGallery{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 3rem;
+        padding: 2rem 0 0 0;
+    }
+    .achieveGallery img{
+        width: 100%;
+    }
+
+}

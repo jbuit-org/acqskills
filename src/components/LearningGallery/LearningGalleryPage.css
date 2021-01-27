@@ -1,0 +1,193 @@
+:root{
+    --primary: #31EFD2;
+}
+
+.learnContainer{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-template-areas: 
+        "sidebar main";
+    background: #000;
+}
+
+sidebar{
+    grid-area: sidebar;
+    background: #fff;
+    padding: 8rem 3rem;
+}
+
+.sidebar_menu{
+    padding: .5rem 0;
+    border-bottom: 1px solid var(--primary);
+}
+
+.sidebar_menu .sidebar_link a{
+    text-decoration: none;
+    color: #000;
+}
+
+.sidebar_toggle{
+    font-size: 3rem;
+    margin: 5rem 30%;
+    display: none;
+}
+
+.LearnGallerySide h3{
+    margin-top: 3rem;
+}
+
+main{
+    grid-area: main;
+    padding: 8rem 3rem;
+}
+
+hr{
+    margin: 1rem 0;
+}
+
+.learningNav{
+    color: #fff;
+}
+
+.learningNav h4{
+    font-size: 1.3rem;
+    padding: 0 0 1.5rem 0;
+}
+
+.courseTitle{
+    display: flex;
+    justify-content: space-between;
+}
+
+.course_search{
+    display: flex;
+    justify-content: space-between;
+}
+
+.course_search p{
+    font-size: .8rem;
+}
+
+.search{
+    
+}
+
+.learnGallery{
+    display: grid;
+    grid-template-columns: 1fr 3fr 0.5fr;
+    background: #fff;
+    padding: .5rem;
+}
+
+.learnGalleryVideo video{
+    width: 100%;
+}
+
+.learnGalleryDetails{
+    padding: 1rem;
+}
+
+.learnGalleryDetails h4{
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.courseTime{
+    display: flex;
+}
+
+.courseTime h6{
+    margin: 0 1rem;
+}
+
+.learnIcon{
+    font-size: 2.5rem;
+}
+
+
+/** LearningGalleryList **/
+
+.learningCourseBanner{
+    background: #fff;
+    min-height: 30vh;
+    padding: 2rem;
+}
+
+.learningcoursespace{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    margin-bottom: 5rem;
+    padding: 0 2rem;
+}
+
+.learningcoursespace h4{
+    font-size: 1.5rem;
+}
+
+.learningcoursespace .learnIcon{
+    font-size: 1.5rem;
+    justify-self: end;
+}
+
+.learningCourseOption{
+    width: 50%;
+    padding: 0 2rem;
+}
+
+.learningCourseOption ul{
+    display: flex;
+    justify-content: space-around;
+    bottom: 0;
+}
+
+.learningCourseOption li{
+    list-style: none;
+}
+
+.learningCourseOption a{
+    text-decoration: none;
+    list-style: none;
+    font-size: .8rem;
+}
+
+.learningCourseOption .active{
+    background: #31EFD2;
+    padding: .5rem;
+    border-radius: .5rem;
+    color: #000;
+    font-weight: 600;
+}
+
+.learningCourseNav{
+    display: flex;
+    padding: 1.5rem;
+    background: #2A2A2A;
+}
+
+.navbar_menu{
+    padding: 0 1.2rem;
+}
+
+.navbar_link a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.navbar_link .active_navbar{
+    border-bottom: 1px solid #31EFD2;
+}
+
+.learningCourseMain{
+    color: #fff;
+    padding: 1.5rem 0;
+    font-size: 1.3rem;
+}
+
+@media screen and (max-width: 500px) {
+    .sidebar_toggle{
+        margin: 1rem;
+        display: block;
+        font-size: 1rem;
+        font-weight: bolder;
+    }
+}

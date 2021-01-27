@@ -1,0 +1,75 @@
+:root{
+    --primary: #31EFD2;
+}
+
+.footerContainer{
+    background: #000;
+    border-radius: 7rem 7rem 0 0;
+    text-align: left;
+}
+
+.footerDetails h5, .footerContact h5, .footerSocial h5, .footerKnow h5, .footerCourse h5, .footerCourseType h5{
+    color: #fff;
+    padding-bottom: 1.5rem;
+}
+
+.footerDetails{
+    width: 90%;
+    margin: auto;
+    padding: 6rem 0 2rem 0;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 1.5rem;
+}
+
+.footerLinks li, .footerSocial li{
+    list-style: none;
+    text-decoration: none;
+    font-size: .7rem;
+}   
+
+.footerSocial ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footerSocial .socialLink{
+    font-size: .8rem;
+    color: #fff;
+}
+
+.footerContacts-Details {
+    color: #fff;
+    font-size: .8rem;
+    padding-bottom: 1.5rem;
+    display: flex;
+}
+
+.footerContactDetails{
+    padding-left: .5rem;
+}
+
+.footerSocial, .footerKnow, .footerCourse, .footerCourseType{
+    color: #fff;
+    font-size: .7rem;
+}
+
+.footerCourseType p{
+    padding-bottom: 2rem;
+}
+
+.footerBase{
+    width: 100%;
+    background: var(--primary);
+    text-align: center;
+    font-size: .8rem;
+    font-weight: 700;
+    padding: .8rem;
+}
+
+@media screen and (max-width: 960px) {
+    .footerDetails{
+        display: none;
+    }
+    
+}

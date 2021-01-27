@@ -1,0 +1,12 @@
+:root{
+    --primary: #31EFD2;
+}
+
+.Account__row{
+    background: #ffffff;
+    width: 80%; 
+    height: 100vh; 
+    display: grid; 
+    grid-template-columns: 40% 60%; 
+    margin: auto;
+}

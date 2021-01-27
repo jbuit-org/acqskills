@@ -1,0 +1,210 @@
+.liveClass{
+    width: 90%;
+    margin: auto;
+    display: grid;
+    padding-bottom: 1rem;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.liveClass .classVideo{
+    width: 90%;
+    margin: auto;
+}
+
+.liveClass .classVideo video{
+    width: 100%;
+    padding: 1rem;
+    border-radius: 2rem;
+}
+
+.classDetails{
+    width: 100%;
+    margin: auto;
+}
+
+.classDetails h3{
+    font-size: 2rem;
+    padding: 1.5rem;
+}
+
+.classDetails .classText{
+    font-size: 1rem;
+    font-weight: bold;
+    padding: .5rem 1.5rem;
+}
+
+.classDetails .classText p{
+    padding: 1.5rem 0;
+}
+
+.box{
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 100px;
+    padding: 1.5rem;
+}
+.boxContainer{
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    box-shadow: 5px 5px 8px grey;
+    padding: 2rem;
+}
+
+.boxContainer .boxDetails p{
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.level{
+    padding: 5rem 0;
+}
+
+.levelContainer{
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 1.5rem;
+}
+
+.levelDetails{
+    background-color: #2A2A2A;
+    border-radius: .5rem;
+    text-align: center;
+    color: #fff;
+    padding: 1.5rem;
+}
+
+.levelDetails h4{
+    padding: 1rem 0 1.5rem 0;
+}
+
+.levelDetails .price{
+    padding-bottom: 1rem;
+}
+
+.levelDetails .price .label{
+    font-size: 3rem;
+}
+
+.levelDetails .price .month{
+    font-size: .8rem;
+    font-weight: bold;
+}
+
+.levelDetails .labelSmall{
+    font-size: .75rem;
+    padding-bottom: 1rem;
+}
+
+.personal{
+    width: 50%;
+    background-color: #2A2A2A;
+    margin-left: 4rem;
+    padding: 1.5rem;
+    border-radius: .5rem;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+
+.personal .labelPersonal{
+    font-size: 1rem;
+    color: #fff;
+}
+
+.personal .personalAmount{
+    padding: 3rem;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+@media screen and (max-width: 960px) {
+    .liveClass{
+        width: 100%;
+        display: block;
+    }
+    .liveClass .classVideo{
+        width: 80%;
+    }
+    .liveClass .classVideo video{
+        padding: .5rem;
+    }
+    .classDetails{
+        width: 100%;
+        margin: auto;
+        text-align: center;
+    }
+    
+    .classDetails h3{
+        font-size: 1.5rem;
+        padding: .5rem;
+    }
+    
+    .classDetails .classText{
+        font-size: .8rem;
+        font-weight: bold;
+        padding: 0 1.5rem;
+    }
+    
+    .classDetails .classText p{
+        padding: 1.5rem 0;
+    }
+
+    .box{
+        width: 100%;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+        padding: 0;
+    }
+    .boxContainer{
+        width: 50%;
+        margin: auto;
+        text-align: center;
+        box-shadow: 5px 5px 8px grey;
+    }
+    
+    .boxContainer .boxDetails p{
+        font-size: 1rem;
+        font-weight: bold;
+        padding-bottom: .3rem;
+    }
+    .level{
+        width: 100%;
+    }
+    
+    .levelContainer{
+        width: 80%;
+        margin: auto;
+        display: grid;
+        grid-template-columns: 100%;
+        gap: 1rem;
+        padding: 1.5rem;
+    }
+    .personal{
+        width: 50%;
+        background-color: #2A2A2A;
+        margin-left: 2.6rem;
+        padding: 1.5rem;
+        border-radius: .5rem;
+        display: grid;
+        grid-template-columns: 100%;
+    }
+    
+    .personal .labelPersonal{
+        font-size: 1rem;
+        color: #fff;
+        padding-bottom: 1rem;
+    }
+    
+    .personal .personalAmount{
+        padding: 1rem;
+        font-size: 1.8rem;
+        font-weight: 600;
+    }
+}
